@@ -7,3 +7,4 @@ Run the following command:
 dotnet new console -o MySampleApp
 
 
+dotnet new web -o .

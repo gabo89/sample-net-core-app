@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\sample-net-core-app\\MySampleApp\\MySampleApp.csproj": {}
+    "C:\\sample-net-core-app\\sample-net-core-app.csproj": {}
   },
   "projects": {
-    "C:\\sample-net-core-app\\MySampleApp\\MySampleApp.csproj": {
+    "C:\\sample-net-core-app\\sample-net-core-app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\sample-net-core-app\\MySampleApp\\MySampleApp.csproj",
-        "projectName": "MySampleApp",
-        "projectPath": "C:\\sample-net-core-app\\MySampleApp\\MySampleApp.csproj",
+        "projectUniqueName": "C:\\sample-net-core-app\\sample-net-core-app.csproj",
+        "projectName": "sample-net-core-app",
+        "projectPath": "C:\\sample-net-core-app\\sample-net-core-app.csproj",
         "packagesPath": "C:\\Users\\Gabriel Cuadros\\.nuget\\packages\\",
-        "outputPath": "C:\\sample-net-core-app\\MySampleApp\\obj\\",
+        "outputPath": "C:\\sample-net-core-app\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -51,6 +51,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

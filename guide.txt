@@ -1,0 +1,9 @@
+To generate a .NET Core sample app, you can use the .NET Core CLI (Command Line Interface). Here's an example of how to create a new console application using the CLI:
+
+Open a terminal or command prompt
+Navigate to the directory where you want to create the sample app
+Run the following command:
+
+dotnet new console -o MySampleApp
+
+

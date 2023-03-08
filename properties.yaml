@@ -1,0 +1,10 @@
+---
+project_name: dotnet-demo
+framework: dotnet
+image: dockeragent89/dotnet-image:v5
+app_name: web-app
+process_type: web
+code_src: .
+run_unit_tests: True
+artifactory_url: https://gaboartifactory.jfrog.io
+build_version: 1.0.0

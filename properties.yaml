@@ -1,7 +1,6 @@
 ---
 project_name: dotnet-demo
 framework: dotnet
-image: dockeragent89/git-image:v10
 app_name: web-app
 process_type: web
 code_src: .

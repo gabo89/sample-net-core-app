@@ -7,3 +7,6 @@ code_src: .
 run_unit_tests: True
 artifactory_url: https://gaboartifactory.jfrog.io
 build_version: 1.0.0
+bp_node_run_scripts: ''
+bp_web_server: ''
+bp_web_server_root: ''

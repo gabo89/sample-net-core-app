@@ -1,7 +1,6 @@
 ---
 project_name: dotnet-demo
 framework: dotnet
-app_name: web-app
 process_type: web
 code_src: .
 run_unit_tests: True

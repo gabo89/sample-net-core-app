@@ -2,9 +2,23 @@
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <RootNamespace>sample.net.core</RootNamespace>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <AssemblyVersion>0.0.1.0</AssemblyVersion>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>sample_net_core_app</RootNamespace>
+    <IsPackable>true</IsPackable>
+    <PackageProjectUrl>https://github.com/gabo89/sample-net-core-app</PackageProjectUrl>
+    <FileVersion>0.0.1.0</FileVersion>
+    <RepositoryUrl>https://github.com/gabo89/sample-net-core-app</RepositoryUrl>
+    <Version>0.0.1</Version>
+    <Product>Gabodemo</Product>
+    <PackageId>sample.net.core</PackageId>
+    <Title>sample.net.core</Title>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
 </Project>

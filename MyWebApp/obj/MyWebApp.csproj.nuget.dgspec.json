@@ -5,10 +5,10 @@
   },
   "projects": {
     "C:\\sample-net-core-app\\MyWebApp\\MyWebApp.csproj": {
-      "version": "1.0.0",
+      "version": "0.0.1",
       "restore": {
         "projectUniqueName": "C:\\sample-net-core-app\\MyWebApp\\MyWebApp.csproj",
-        "projectName": "MyWebApp",
+        "projectName": "sample.net.core",
         "projectPath": "C:\\sample-net-core-app\\MyWebApp\\MyWebApp.csproj",
         "packagesPath": "C:\\Users\\Gabriel Cuadros\\.nuget\\packages\\",
         "outputPath": "C:\\sample-net-core-app\\MyWebApp\\obj\\",

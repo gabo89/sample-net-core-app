@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\sample-net-core-app\\sample-net-core-app.csproj": {}
+    "C:\\sample-net-core-app\\MyWebApp\\MyWebApp.csproj": {}
   },
   "projects": {
-    "C:\\sample-net-core-app\\sample-net-core-app.csproj": {
+    "C:\\sample-net-core-app\\MyWebApp\\MyWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\sample-net-core-app\\sample-net-core-app.csproj",
-        "projectName": "sample-net-core-app",
-        "projectPath": "C:\\sample-net-core-app\\sample-net-core-app.csproj",
+        "projectUniqueName": "C:\\sample-net-core-app\\MyWebApp\\MyWebApp.csproj",
+        "projectName": "MyWebApp",
+        "projectPath": "C:\\sample-net-core-app\\MyWebApp\\MyWebApp.csproj",
         "packagesPath": "C:\\Users\\Gabriel Cuadros\\.nuget\\packages\\",
-        "outputPath": "C:\\sample-net-core-app\\obj\\",
+        "outputPath": "C:\\sample-net-core-app\\MyWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,28 +42,6 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[17.3.2, )"
-            },
-            "NUnit": {
-              "target": "Package",
-              "version": "[3.13.3, )"
-            },
-            "NUnit.Analyzers": {
-              "target": "Package",
-              "version": "[3.5.0, )"
-            },
-            "NUnit3TestAdapter": {
-              "target": "Package",
-              "version": "[4.3.0, )"
-            },
-            "coverlet.collector": {
-              "target": "Package",
-              "version": "[3.1.2, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -76,6 +54,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

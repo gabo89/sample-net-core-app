@@ -4,7 +4,5 @@ Open a terminal or command prompt
 Navigate to the directory where you want to create the sample app
 Run the following command:
 
-dotnet new console -o MySampleApp
+dotnet new webapp -o MyWebApp && cd MyWebApp && dotnet new xunit -n MyWebApp.Tests && dotnet add MyWebApp.Tests/MyWebApp.Tests.csproj reference MyWebApp/MyWebApp.csproj
 
-
-dotnet new webapp -o .

@@ -1,11 +1,11 @@
 ---
-project_name: dotnet-demo
-framework: dotnet
-process_type: web
-code_src: MyWebApp
-run_unit_tests: True
-artifactory_url: https://gaboartifactory.jfrog.io
-build_version: 1.0.0
+project_name: 'dotnet-demo'
+framework: 'net'
+process_type: 'web'
+code_src: 'MyWebApp'
+run_unit_tests: 'True'
+artifactory_url: 'https://gaboartifactory.jfrog.io'
+build_version: '1.0.0'
 bp_node_run_scripts: ''
 bp_web_server: ''
 bp_web_server_root: ''

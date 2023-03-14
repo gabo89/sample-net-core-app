@@ -9,6 +9,8 @@ jobs:
   check_branch_name:
     runs-on: ubuntu-latest
     steps:
+      - name: clone repo
+        uses: actions/checkout@v3
       - name: Check branch name
         run: |
           echo "branch created ${{ github.event.ref }}"

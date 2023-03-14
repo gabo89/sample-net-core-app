@@ -14,7 +14,9 @@ jobs:
       - name: Check branch name
         run: |
           echo "branch created ${{ github.event.ref }}"
-          git checkout ${{ github.event.repository.default_branch }}
+          echo "default branch is ${{ github.event.repository.default_branch }}"
+          VARIABLE1=$(echo ${{ github.event.repository.default_branch }} | sed  -e 's#refs/heads/##g')
+          git checkout $VARIABLE1
           git status
           VARIABLE=$(echo ${{ github.event.ref }} | sed  -e 's#refs/heads/##g')
           echo "Branch names starting with 'release/' are not allowed, erasing it."

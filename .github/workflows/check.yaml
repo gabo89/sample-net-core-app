@@ -3,7 +3,7 @@ on:
   push:
     branches:
       # Include all branches except those starting with 'testing/'
-      - "!testing/*"
+      - 'testing/*'
 jobs:
   check_branch_name:
     runs-on: ubuntu-latest

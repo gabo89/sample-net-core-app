@@ -1,16 +1,15 @@
-name: Prevent creation of branches starting with 'testing/'
+name: Fail when incorrect branch names are used
 on:
   push:
     branches:
-      # Include all branches except those starting with 'testing/'
-      - 'testing/*'
+    - 'release*'
+    - 'release*/**'
+
 jobs:
   check_branch_name:
     runs-on: ubuntu-latest
     steps:
       - name: Check branch name
         run: |
-          if [[ ${{ github.ref }} == "refs/heads/testing/"* ]]; then
-            echo "Branch names starting with 'testing/' are not allowed."
-            exit 1
-          fi
+          echo "Branch names starting with 'release/' are not allowed."
+          exit 1
